@@ -34,7 +34,7 @@ public class MyBatisGeneratorTest {
         List<String> warnings = new ArrayList<String>();
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = cp.parseConfiguration(this.getClass().getClassLoader().getResourceAsStream("generatorConfigMyBatis3.xml"));
-            
+
         DefaultShellCallback shellCallback = new DefaultShellCallback(true);
         
         try {
@@ -51,9 +51,9 @@ public class MyBatisGeneratorTest {
         List<String> warnings = new ArrayList<String>();
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = cp.parseConfiguration(this.getClass().getClassLoader().getResourceAsStream("generatorConfigIbatis2.xml"));
-            
+
         DefaultShellCallback shellCallback = new DefaultShellCallback(true);
-        
+
         try {
             MyBatisGenerator myBatisGenerator = new MyBatisGenerator(config, shellCallback, warnings);
             myBatisGenerator.generate(null);

@@ -345,7 +345,7 @@ public class DatabaseIntrospector {
                             introspectedColumn.getRemarks(), true));
                     introspectedColumn.setJavaProperty(
                             getValidPropertyName(sb.toString()));
-                } else {
+                } else {//TODO
                     introspectedColumn.setJavaProperty(
                             getCamelCaseString(calculatedColumnName, false));
                 }

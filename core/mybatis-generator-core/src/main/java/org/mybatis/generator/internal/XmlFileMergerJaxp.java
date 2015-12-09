@@ -90,7 +90,7 @@ public class XmlFileMergerJaxp {
                     existingFile.getName()), e);
         }
     }
-    
+
     public static String getMergedSource(InputSource newFile,
             InputSource existingFile, String existingFileName) throws IOException, SAXException,
             ParserConfigurationException, ShellException {

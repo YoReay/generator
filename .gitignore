@@ -1,10 +1,12 @@
 .factorypath
+*.iml
 
 # /core/
 /core/.project
 /core/.settings
 /core/build.log
 /core/target
+/core/.idea
 
 # /core/mybatis-generator-core/
 /core/mybatis-generator-core/.classpath

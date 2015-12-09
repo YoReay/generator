@@ -58,7 +58,7 @@ public class JavaTypeResolverDefaultImpl implements JavaTypeResolver {
         typeMap.put(Types.BINARY, new JdbcTypeInformation("BINARY", //$NON-NLS-1$
                 new FullyQualifiedJavaType("byte[]"))); //$NON-NLS-1$
         typeMap.put(Types.BIT, new JdbcTypeInformation("BIT", //$NON-NLS-1$
-                new FullyQualifiedJavaType(Boolean.class.getName())));
+                new FullyQualifiedJavaType(Integer.class.getName())));
         typeMap.put(Types.BLOB, new JdbcTypeInformation("BLOB", //$NON-NLS-1$
                 new FullyQualifiedJavaType("byte[]"))); //$NON-NLS-1$
         typeMap.put(Types.BOOLEAN, new JdbcTypeInformation("BOOLEAN", //$NON-NLS-1$

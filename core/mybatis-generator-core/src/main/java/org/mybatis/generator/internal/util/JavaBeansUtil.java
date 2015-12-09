@@ -140,7 +140,7 @@ public class JavaBeansUtil {
                     sb.append(Character.toUpperCase(c));
                     nextUpperCase = false;
                 } else {
-                    sb.append(Character.toLowerCase(c));
+                    sb.append(Character.toLowerCase(c));//TODO 讲列名转为小写
                 }
                 break;
             }
